@@ -3,3 +3,8 @@
 
 const userInput = "42";
 // Try changing to "hello", 10, null, NaN
+if (typeof userInput === 'number' && !isNaN(userInput)) {
+    console.log(`T :${userInput} <- This is Number`);
+} else {
+    console.log(`F :${userInput} <- This is not number /is NaN`);
+}
